@@ -1,0 +1,98 @@
+/*公共样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+html{background:white}
+a{text-decoration: none;color: #88888a;}
+li{list-style: none;}
+img{border: 0;display: block;}
+body{font-size: 12px;font-family: "微软雅黑";}
+i,em{font-style: normal;}
+b,strong{font-style: normal;}
+/*高度坍塌*/
+.clearfix:after{content: '.';display: block;clear: both;overflow: hidden;visibility: hidden;height: 0;}
+.clearfix{zoom:1}
+
+.fl{float: left;}
+.fr{float: right;}
+a:hover {color: red;}
+
+/*global_nav*/
+.global_nav a:hover{
+	color: #C80A28;
+}
+#global_nav{width:100%;min-width:1200px;height:29px;background:#f5f5f5;border-bottom: 1px solid #ddd;}
+.global_nav{
+	width: 1200px;
+	margin: 0 auto;
+	height: 30px;
+}
+.global_l li{
+	line-height: 30px;margin:0 7px;
+	float: left;
+}
+.global_l .bold{
+	color: red;
+	font-weight: bold;
+}
+.global_r{
+	width: 500px;
+	height: 30px;
+}
+
+.global_r li{
+	line-height: 30px;margin:0 7px;
+	float: left;
+}
+.global_r .zhuce{
+	color: #C80A28;
+}
+.global_r .info1{
+	float: right;
+	border-left: 1px dashed #ddd;
+}
+.global_r .info1 a{
+	font-size: 13px;
+}
+.global_r .info1 .img{
+	float: left;
+	margin: 10px 1px;
+}
+/*hd-header*/
+#hd-header{width: 100%;}
+#hd-header .top-header{
+	width: 1200px;
+	height: 140px;
+	margin: 0 auto;
+	/*background: red;*/
+	position: relative;
+}
+#hd-header .top-header .header-search{
+	/*background: red;*/
+	position: absolute;
+	top: 27px;
+	left: 402px;
+}
+.header-search .text{
+	color: #c80a28;
+	width: 402px;
+	height: 32px;
+	border: 2px solid #c80a28;
+	line-height: 32px;
+    text-indent: 5px;
+    font-size: 14px;
+}
+.header-search .button{
+	width: 85px;
+	height: 36px;
+	color: white;
+	border: none;
+	line-height: 36px;
+	background: #C80A28;
+	letter-spacing: 4px;
+	font-size: 14px;
+}
+.header-search .hot-word{
+	margin-top: 8px;
+}
+.header-search .hot-word a{
+	margin:0 4px
+}

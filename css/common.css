@@ -96,3 +96,57 @@ a:hover {color: red;}
 .header-search .hot-word a{
 	margin:0 4px
 }
+
+
+/*footer*/
+#footer{
+	width:100%;
+	min-height: 140px;
+	
+}
+#footer .foot-info{
+	width: 1080px;
+	height: 115px;
+	padding: 20px 60px;
+	background: #fafafa;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+#footer .foot-info .info{
+	margin-right: 99px;
+	float: left;
+}
+#footer .foot-info .info h3{
+	font-size: 14px;
+	color: black;
+	margin-bottom: 13px;
+}
+#footer .foot-info .info ul li a{
+	line-height: 20px;
+	height: 20px;
+}
+#footer .foot-img{
+	width: 1200px;
+	height: 135px;
+	background: url(../img/footer.png) no-repeat;
+	margin: 0 auto;
+}
+#footer .foot-black{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	background: black;
+}
+#footer .foot-black .black-nav{
+	color: white;
+	margin-left: 295px;
+}
+#footer .foot-black .black-nav a{
+	color: white;
+	margin: 0 20px;
+	line-height: 30px;
+}
+#footer .copy{
+	margin: 15px auto;
+	width: 1200px;
+}

@@ -54,7 +54,7 @@ a:hover {color: red;}
 }
 .global_r .info1 .img{
 	float: left;
-	margin: 10px 1px;
+	margin: 0 2px;
 }
 /*hd-header*/
 #hd-header{width: 100%;}
@@ -102,7 +102,7 @@ a:hover {color: red;}
 #footer{
 	width:100%;
 	min-height: 140px;
-	margin-top: 200px;
+	/*margin-top: 200px;*/
 	
 }
 #footer .foot-info{

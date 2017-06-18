@@ -1,0 +1,18 @@
+#cont{
+	width: 100%;
+}
+#cont .concent{
+	width: 1200px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+#cont .warming{
+	height: 120px;
+}
+#cont .warming img{
+	display: block;
+}
+#cont .wrap{
+	height: 700px;
+	background: blue;
+}

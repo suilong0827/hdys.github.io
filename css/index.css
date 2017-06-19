@@ -13,12 +13,17 @@
 #cont .warming img{
 	display: block;
 }
-/*#cont .wrap{
-	height: 700px;
-}*/
-
+#cont .wrap{
+	width: 1200px;
+	height: 671px;
+}
+#cont .wrap .zpp{
+	width: 1200px;
+	hei
+}
 #cont .wrap .zppleft{
 	width: 680px;
+	height: 335px;
 	/*position: relative;*/
 }
 #cont .wrap .zppleft p{
@@ -168,6 +173,7 @@
 #cont .wrap .zpp-b .zpp-video{
 	float: right;
     width: 498px;
+    height: 316px;
     position: absolute;
     top: 0;
     right: 0;

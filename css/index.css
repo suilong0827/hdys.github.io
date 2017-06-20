@@ -4,8 +4,8 @@
 }
 #cont .concent{
 	width: 1200px;
-	/*background: red;*/
 	margin: 0 auto;
+	overflow: hidden;
 }
 #cont .warming{
 	height: 120px;
@@ -19,12 +19,10 @@
 }
 #cont .wrap .zpp{
 	width: 1200px;
-	hei
 }
 #cont .wrap .zppleft{
 	width: 680px;
 	height: 335px;
-	/*position: relative;*/
 }
 #cont .wrap .zppleft p{
 	height: 35px;
@@ -37,7 +35,6 @@
 	font-size: 12px;
 }
 #cont .wrap .zppleft #add-1{
-	/*position: absolute;*/
 	margin-top: 7px;
 }
 #cont .wrap .zppleft .add ul{
@@ -181,12 +178,115 @@
 
 /*new_arr*/
 #cont .concent .new_arr{
-	background: red;
-	height: 400px;
+	height: auto;
+	width: 1200px;
+	overflow: hidden;
 }
-#cont .concent .new_arr h1{
-	background: ;
+#cont .concent .new_arr .arr-nav{
+	height: 24px;
+	background: url(../img/handu.png) no-repeat left -51px;
+	width: 100%;
+    /*height: 17px;*/
+    margin-bottom: 8px;
+    position: relative;
+    font-family: '宋体';
+    font-size: 12px;
+    color: #666;
+    padding-left: 210px;
+    line-height: 24px;
 }
+#cont .concent .new_arr .arr-nav a{
+	color: #666;
+    width: 62px;
+    height: 22px;
+    line-height: 18px;
+    vertical-align: middle;
+    margin: 0 5px;
+    text-align: center;
+    display: inline-block;
+}
+#cont .concent .new_arr .arr-nav a:hover{
+	background: url(../img/2.png)no-repeat;
+	color: white;
+}
+#cont .concent .new_arr .arr-floor{
+	width: 1220px;
+}
+#cont .concent .new_arr .arr-floor .floor-list{
+	float: left;
+    width: 223px;
+    height: 300px;
+    border-top: none;
+    margin: 0 21px 5px 0;
+    overflow: hidden;
+    /*background: red;*/
+}
+#cont .concent .new_arr .floor-img img{
+	width: 230px;height: 230px;
+}
+#cont .concent .new_arr .arr-floor .floor-cont{
+	margin-top: 10px;
+	text-align: center;
+	position: relative;
+}
+#cont  .new_arr .arr-floor .floor-cont .prise{
+	font-size: 20px;
+	font-weight: bold;
+	height: 15px;
+	line-height: 15px;
+	margin-right: 5px;
+}
+
+#cont  .new_arr .arr-floor .floor-cont .old-prise{
+	color: #999999;
+	text-decoration: line-through;
+}#cont  .new_arr .arr-floor .floor-cont .buynow{
+	display: block;
+	height: 16px;
+	width:74px ;
+	line-height: 16px;
+	border: 1px solid #333;
+	position: absolute;
+	left: 70px;
+	bottom: -30px;
+}
+
+/*show*/
+#cont #show{
+	width: 1200px;
+    height: auto;
+    padding-top: 35px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#cont #show h2{
+	width: 100%;
+    height: 17px;
+    margin-bottom: 8px;
+    position: relative;
+    font-family: '宋体';
+    font-size: 12px;
+    color: #666;
+    background: url(../img/handu.png) no-repeat 0 -78px;
+}
+#cont #show .keyWord a{
+	padding: 0 10px;
+}
+#cont #show .sec-1{
+	width: 1220px;
+    height: 800px;
+    background: papayawhip;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
 
 /*foot-banner*/
 #foot-banner{

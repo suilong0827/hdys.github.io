@@ -96,6 +96,63 @@ a:hover {color: red;}
 .header-search .hot-word a{
 	margin:0 4px
 }
+/*siderbar*/
+#sidebar{
+	width: 72px;
+    height: 308px;
+    /*background: url(../img/float_box4.png) no-repeat 0 0;*/
+    position: fixed;
+    right: 50%;
+    top: 50%;
+    margin-right: -680px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#sidebar>a{
+	display: block;
+    width: 72px;
+    height: 80px;
+    float: left;
+    margin-top: 1px;
+}
+
+#sidebar>a:nth-child(1){
+	background: url(../img/float_box4.png) no-repeat 0 0;
+}
+#sidebar>a:nth-child(1):hover{
+	background-position: -78px 0;
+}
+
+#sidebar>a:nth-child(2){
+	background: url(../img/float_box4.png) no-repeat 0 -86px;
+}
+#sidebar>a:nth-child(2):hover{
+	background-position: -78px -86px;
+}
+#sidebar>a:nth-child(3){
+	background: url(../img/float_box4.png) no-repeat 0 -164px;
+}
+#sidebar>a:nth-child(3):hover{
+	background-position: -78px -164px;
+}
+#sidebar>a:nth-child(4){
+	background: url(../img/float_box4.png) no-repeat 0 -244px;
+}
+#sidebar>a:nth-child(4):hover{
+	background-position: -78px  -244px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*footer*/

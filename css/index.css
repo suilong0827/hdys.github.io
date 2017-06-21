@@ -252,14 +252,16 @@
 }
 
 /*show*/
-#cont #show{
+#cont .show{
 	width: 1200px;
     height: auto;
     padding-top: 35px;
     overflow: hidden;
     margin: 0 auto;
+    position: relative;
 }
-#cont #show h2{
+#cont .show h2{
+    /*margin-top: 35px;*/
 	width: 100%;
     height: 17px;
     margin-bottom: 8px;
@@ -269,22 +271,209 @@
     color: #666;
     background: url(../img/handu.png) no-repeat 0 -78px;
 }
-#cont #show .keyWord a{
+#cont .show .keyWord a{
 	padding: 0 10px;
 }
-#cont #show .sec-1{
-	width: 1220px;
-    height: 800px;
-    background: papayawhip;
+#cont .show .sec-1{
+	width: 1200px;
+    height: auto;
     overflow: hidden;
 }
+.show .sec-1 .navimg{
+	width: 190px;
+    height: 423px;
+    float: left;
+    margin-right: 10px;
+    background: #fafafa;
+    position: relative;
+}
+.show .sec-1 .navimg .top-img{
+	position: relative;
+}
+.show .sec-1 .navimg .top-img img{
+	width: 190px;
+    height: 253px;
+    display: block;
+}
+.show .sec-1 .navimg .top-img p{
+	width: 170px;
+    height: 34px;
+    padding: 0 10px;
+    line-height: 34px;
+    color: #FFFFFF;
+    background: rgba(132,212,189,0.9);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 14px;
+    font-family: '宋体';
+    z-index: 1000;
+}
+.show .sec-1 .navimg .botton-data{
+	width: 100%;
+    margin: 8px 0px;
+    float: left;
+    height: auto;
+    font-family: '宋体';
+    color: #333;
+    font-weight: bold;
+}
+.show .sec-1 .navimg .botton-data .s_cate1{
+	padding: 0 8px 12px 15px;
+    height: auto;
+    font-family: microsoft YaHei;
+}
+.show .sec-1 .navimg .botton-data a{
+	font-size: 12px;
+    padding: 8px 14px 4px 0px;
+    display: inline-block;
+}
+.show .sec-1 .sec_r{
+	width: 1000px;
+    height: 423px;
+    float: left;
+}
+.show .sec-1 .sec_r .sec_img {
+	width: 790px;
+    float: left;
+    margin-right: 10px;
+    background: url(../img/h.png) no-repeat center center;
+    overflow: hidden;
+}
+.show .sec-1 .sec_r .sec_img .sad1{
+	width: 580px;
+    height: 423px;
+    float: left;
+    margin-right: 10px;
+}
+.show .sec-1 .sec_r .sec_img .sad2{
+	width: 200px;
+    height: 253px;
+    float: left;
+    margin-bottom: 10px;
+}
+.show .sec-1 .sec_r .sec_img .sad3{
+    width: 200px;
+    height: 160px;
+    float: left;
+}
+.show .sec-1 .sec_r .sec_hot{
+	width: 178px;
+    /*border: solid 1px #ddd;*/
+   margin-right: 10px;
+    border-top: none;
+    height: 422px;
+    float: right;
+    padding-right: 10px;
+   
+}
+/*.show .sec-1 .sec_r .sec_hot img{
+	width: 200px;
+	height: 424px;
+}*/
+.show .style{
+	width: 1220px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.show .style_box{
+	float: left;
+    width: 223px;
+    height: auto;
+    margin: 5px 21px 5px 0;
+    background: url(../img/h.png) no-repeat center center;
+    overflow: hidden;
+}
+.show .style_box img{
+	width: 230px;
+    float: left;
+}
+.show .style_box>ul{
+	width: 70%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 8px 0 0 0;
+    font-size: 12px;
+    color: #333;
+    font-family: '宋体';
+}
+.show .style_box>ul .price{
+	color: #000000;
+    font-size: 12px;
+    font-family: 'Arial',Microsoft YaHei,Helvetica,Sans-Serif;
+    margin-top: 3px;
+}
+.show .style_box>ul .arrow{
+	font-family: '微软雅黑';
+    letter-spacing: -4px;
+}
+.show .style_box>ul .old_price{
+	margin-left: 3px;
+    color: #999;
+}
+.show .style_box>ul li{
+	text-align: center;
+    margin-bottom: 8px;
+}
 
+.show .style_box>ul li .pic_button{
+	display: inline-block;
+    width: 74px;
+    height: 16px;
+    border: 1px solid #333;
+    line-height: 16px;
+    font-family: 微软雅黑;
+}
 
+/*new2*/
+#cont .new2 h2{
+	background-position-y: -140px;
+}
 
+#cont .new2 .sec-1 .navimg .top-img p{
+    background: rgba(218,184,103,0.8);
+}
 
+#cont .new2 .sec-1 .sec_r .sec_img .sad1{
+	width: 790px;
+}
+/*new3*/
+#cont .new3 h2{
+	background-position-y: -172px;
+}
 
+#cont .new3 .sec-1 .navimg .top-img p{
+    background: rgba(0,0,0,0.8);
+}
 
+#cont .new3 .sec-1 .sec_r .sec_img .sad1{
+	width: 790px;
+}
+/*new4*/
+#cont .new4 h2{
+	background-position-y: -203px;
+}
 
+#cont .new4 .sec-1 .navimg .top-img p{
+    background: rgba(7,153,203,0.8);
+}
+
+#cont .new4 .sec-1 .sec_r .sec_img .sad1{
+	width: 790px;
+}
+/*new5*/
+#cont .new5 h2{
+	background-position-y: -265px;
+}
+
+#cont .new5 .sec-1 .navimg .top-img p{
+    background: rgba(0,0,0,0.8);
+}
+
+#cont .new5 .sec-1 .sec_r .sec_img .sad1{
+	width: 790px;
+}
 
 
 
